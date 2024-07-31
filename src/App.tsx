@@ -1,8 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "@/routes/layout/Layout";
 import Home from "@/routes/home/Home";
-import Services from "@/routes/services/Services";
-import MyWork from "@/routes/my-work/MyWork";
+import Products from "@/routes/products/Products";
 import AboutMe from "@/routes/about-me/AboutMe";
 import "./App.css";
 import "./fonts.css";
@@ -18,15 +17,15 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "services",
-        element: <Services />,
+        path: "products",
+        element: <Products />,
       },
       {
-        path: "my-work",
-        element: <MyWork />,
+        path: "about-us",
+        element: <AboutMe />,
       },
-      {
-        path: "about-me",
+       {
+        path: "contact-us",
         element: <AboutMe />,
       },
     ],
