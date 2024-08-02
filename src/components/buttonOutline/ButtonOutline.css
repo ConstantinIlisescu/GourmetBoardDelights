@@ -1,0 +1,9 @@
+.button-bg-outline {
+  border: rgb(var(--call-to-action-color)) 1px solid;
+  color: rgb(var(--call-to-action-color));
+}
+
+.button-bg-outline:hover {
+  background-color: rgb(var(--call-to-action-color));
+  color: azure;
+}
