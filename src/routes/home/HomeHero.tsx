@@ -3,7 +3,7 @@ const HomeHero = () => {
   return (
     <section
       className="relative h-[80vh] bg-cover bg-center"
-      style={{ backgroundImage: "url(../../../public/images/home-hero.jpg)" }}
+      style={{ backgroundImage: "url(/images/home-hero.jpg)" }}
     >
       <div className="absolute inset-0 hero-overlay"></div>
 
