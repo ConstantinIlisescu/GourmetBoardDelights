@@ -1,0 +1,3 @@
+.hero-overlay {
+  background-color: rgba(var(--overlay-color), 0.39);
+}

@@ -1,5 +1,12 @@
+import HomeHero from "./HomeHero";
+import "./Home.css";
+
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <>
+      <HomeHero />
+    </>
+  );
 };
 
 export default Home;
