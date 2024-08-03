@@ -1,4 +1,4 @@
-import HomeHero from "./HomeHero";
+import HomeHero from "./homeHero/HomeHero";
 import "./Home.css";
 
 const Home = () => {
