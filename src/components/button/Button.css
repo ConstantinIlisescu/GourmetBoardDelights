@@ -1,5 +1,6 @@
 .button-bg-primary {
   background-color: rgb(var(--call-to-action-color));
+  color: azure;
 }
 
 .button-bg-primary:hover {
