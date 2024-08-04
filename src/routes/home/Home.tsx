@@ -1,6 +1,7 @@
 import HomeHero from "./homeHero/HomeHero";
 import BelowHeroSection from "./belowHeroSection/BelowHeroSection";
 import DiscoverProducts from "./discoverProductsSection/DiscoverProducts";
+import ArtisanChocolate from "./artisanChocolateSection/ArtisanChocolate";
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <HomeHero />
       <BelowHeroSection />
       <DiscoverProducts />
+      <ArtisanChocolate />
     </>
   );
 };

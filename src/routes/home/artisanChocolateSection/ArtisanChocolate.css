@@ -1,0 +1,7 @@
+.artisan-chocolate-image {
+  background-image: url(/images/artisan-chocolate.jpg);
+}
+
+.artisan-chocolate {
+  background-color: rgba(var(--overlay-color), 0.39);
+}
