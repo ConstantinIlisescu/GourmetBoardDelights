@@ -1,0 +1,16 @@
+.below-hero-section-background {
+  background-color: rgb(var(--secondary-color));
+}
+
+.divider {
+  height: 1.5px;
+  width: 70px;
+  margin: 2px;
+}
+
+@media (min-width: 640px) {
+  .divider {
+    height: 70px;
+    width: 1.5px;
+  }
+}

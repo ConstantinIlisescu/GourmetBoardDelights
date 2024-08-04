@@ -1,5 +1,6 @@
 :root {
   --call-to-action-color: 230, 171, 197;
+  --secondary-color: 251, 242, 246;
   --light-color: 255, 255, 255;
   --dark-color: 67, 28, 63;
   --overlay-color: 50, 22, 40;
@@ -7,4 +8,8 @@
 
 .dark-font-text {
   color: rgb(var(--dark-color));
+}
+
+.dark-bg {
+  background-color: rgb(var(--dark-color));
 }
