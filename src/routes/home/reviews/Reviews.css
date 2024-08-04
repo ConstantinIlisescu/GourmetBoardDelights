@@ -1,0 +1,13 @@
+.reviews-image {
+  background-image: url(/images/reviews.jpg);
+}
+
+.reviews-overlay {
+  background-color: rgba(var(--overlay-color), 0.1);
+}
+
+.divider {
+  height: 1.5px;
+  width: 70px;
+  margin: 2px;
+}
